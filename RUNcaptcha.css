@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    overflow: hidden; /* Отключаем прокрутку */
+    position: relative;
+}
+#captcha-container {
+    position: relative;
+    width: 100vw; /* Ширина контейнера равна ширине экрана */
+    height: 100vh; /* Высота контейнера равна высоте экрана */
+}
+#checkbox {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    transition: transform 0.8s ease-in-out, top 0.8s ease-in-out, left 0.8s ease-in-out; /* Плавное перемещение */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* След за галочкой */
+}
+#checkbox:hover {
+    background-color: darkgreen; /* Изменение цвета при наведении */
+}
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+@keyframes run {
+    0% { transform: scaleX(1); }
+    50% { transform: scaleX(0.9); } /* Имитация шага */
+    100% { transform: scaleX(1); }
+}
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); } /* Прыжок вверх */
+    100% { transform: translateY(0); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); } /* Вращение */
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); } /* Скольжение вправо */
+    100% { transform: translateX(0); }
+}
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); } /* Увеличение размера */
+    100% { transform: scale(1); }
+}
+@keyframes pirouette {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.2); } /* Пируэт */
+    100% { transform: rotate(360deg) scale(1); }
+}
+@keyframes wave {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(20px); }
+    50% { transform: translateX(-20px); } /* Волнистое движение */
+    75% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+.hidden {
+    display: none;
+}
+.message-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+.message-success {
+    color: green;
+    font-size: 20px;
+}
+.message-fail {
+    color: red;
+    font-size: 20px;
+}
