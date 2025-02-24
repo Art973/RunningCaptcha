@@ -5,8 +5,8 @@ This is an interactive captcha where the user needs to catch an escaping checkbo
 1. Copy the files RUNcaptcha.js and RUNcaptcha.css into your project.
 2. Include the files in your HTML:
 
-<link rel="stylesheet" href="RUNcaptcha.css">
-<script src="RUNcaptcha.js"></script>
+![image](https://github.com/user-attachments/assets/4c58dcee-a11a-4d50-bb05-2ee8df553322)
+
 
 # Usage
 3. Add a container for the captcha in your HTML:
