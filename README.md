@@ -11,9 +11,8 @@ This is an interactive captcha where the user needs to catch an escaping checkbo
 # Usage
 3. Add a container for the captcha in your HTML:
 
-<div id="captcha-container">
-    <button id="checkbox">✔</button>
-</div>
+![image](https://github.com/user-attachments/assets/8d1f6201-9b3f-4c64-a96e-1c1c2b9c553f)
+
 
 4. Initialize the captcha in JavaScript:
 
