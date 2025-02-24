@@ -16,9 +16,8 @@ This is an interactive captcha where the user needs to catch an escaping checkbo
 
 4. Initialize the captcha in JavaScript:
 
-document.addEventListener('DOMContentLoaded', () => {
-    // The captcha will start automatically
-});
+![image](https://github.com/user-attachments/assets/eac320c0-1953-4178-abe1-a5393d34c269)
+
 
 ### License
 This project is distributed under the MIT License. You are free to use and modify it as you wish.
