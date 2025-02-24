@@ -13,9 +13,9 @@
 # Использование
 1. Добавьте контейнер для капчи в ваш HTML:
 
-<div id="captcha-container">
-    <button id="checkbox">✔</button>
-</div>
+// <div id="captcha-container">
+//    <button id="checkbox">✔</button>
+//</div>
 
 2. Инициализируйте капчу в JavaScript:
 
