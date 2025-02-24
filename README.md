@@ -1,27 +1,25 @@
-# Капча: Убегающая галочка
+Captcha: Escaping Checkbox
+This is an interactive captcha where the user needs to catch an escaping checkbox. It protects against bots and works on all devices.
 
-Это интерактивная капча, где пользователь должен поймать убегающую галочку. Она защищает от ботов и работает на всех устройствах.
+# Installation
+1. Copy the files RUNcaptcha.js and RUNcaptcha.css into your project.
+2. Include the files in your HTML:
 
-## Установка
+<link rel="stylesheet" href="RUNcaptcha.css">
+<script src="RUNcaptcha.js"></script>
 
-1. Скопируйте файлы `RUNcaptcha.js` и `RUNcaptcha.css` в ваш проект.
-2. Подключите файлы в HTML:
-   ```html
-   <link rel="stylesheet" href="RUNcaptcha.css">
-   <script src="RUNcaptcha.js"></script>
+# Usage
+3. Add a container for the captcha in your HTML:
 
-# Использование
-1. Добавьте контейнер для капчи в ваш HTML:
+<div id="captcha-container">
+    <button id="checkbox">✔</button>
+</div>
 
-// <div id="captcha-container">
-//    <button id="checkbox">✔</button>
-//</div>
-
-2. Инициализируйте капчу в JavaScript:
+4. Initialize the captcha in JavaScript:
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Капча автоматически запустится
+    // The captcha will start automatically
 });
 
-### Лицензия
-Этот проект распространяется под лицензией MIT. Вы можете свободно использовать и модифицировать его.
+### License
+This project is distributed under the MIT License. You are free to use and modify it as you wish.
