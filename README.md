@@ -88,24 +88,8 @@ const maxTime = 15000; // Maximum time for success (in milliseconds)
 ## Basic Example
 Here’s a complete example of how to use the captcha:
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escaping Checkbox Captcha</title>
-    <link rel="stylesheet" href="RUNcaptcha.css">
-</head>
-<body>
-    <h1>Catch the Checkbox!</h1>
-    <div id="captcha-container">
-        <button id="checkbox">✔</button>
-    </div>
-    <p id="message-success" class="hidden">Success! You passed the captcha.</p>
-    <p id="message-fail" class="hidden">Error! Please try again.</p>
-    <script src="RUNcaptcha.js"></script>
-</body>
-</html>
+![image](https://github.com/user-attachments/assets/a0244a23-3959-4243-b69a-c3e0b1e6846e)
+
 
 # License
 This project is licensed under the MIT License . Feel free to use, modify, and distribute it as you wish.
