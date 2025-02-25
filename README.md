@@ -19,28 +19,27 @@ Download the following files and add them to your project:
 RUNcaptcha.js – Contains the JavaScript logic.
 RUNcaptcha.css – Contains the styles for the captcha.
 Alternatively, you can clone the repository:
+
 git clone https://github.com/Art973/RunningCaptcha.git
 
 Step 2: Include the Files in Your Project
 Add the following lines to your HTML file to include the captcha:
 
-<link rel="stylesheet" href="RUNcaptcha.css">
-<script src="RUNcaptcha.js"></script>
+![image](https://github.com/user-attachments/assets/9f77b382-d7cd-41e9-9aef-0b3b60370ab5)
+
 
 # Usage
 Step 1: Add the Captcha Container
 Insert the following HTML code where you want the captcha to appear:
 
-<div id="captcha-container">
-    <button id="checkbox">✔</button>
-</div>
+![image](https://github.com/user-attachments/assets/8aca5f38-984f-4fa0-ab64-e809568463ec)
+
 
 Step 2: Initialize the Captcha
 The captcha will automatically initialize when the page loads. However, if you want to manually trigger it, you can use the following JavaScript:
 
-document.addEventListener('DOMContentLoaded', () => {
-    // The captcha will start automatically
-});
+![image](https://github.com/user-attachments/assets/cd07cd3c-e5c7-4ee4-9cb8-f2014a9ac5dc)
+
 
 Step 3: Customize the Behavior (Optional)
 You can customize the behavior of the captcha by modifying the RUNcaptcha.js file. For example:
