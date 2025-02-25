@@ -1,11 +1,4 @@
 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    overflow: hidden; 
-    position: relative;
-}
 #captcha-container {
     position: relative;
     width: 100vw; 
@@ -69,22 +62,5 @@ body {
     50% { transform: translateX(-20px); }
     75% { transform: translateX(20px); }
     100% { transform: translateX(0); }
-}
-.hidden {
-    display: none;
-}
-.message-container {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.message-success {
-    color: green;
-    font-size: 20px;
-}
-.message-fail {
-    color: red;
-    font-size: 20px;
+
 }
