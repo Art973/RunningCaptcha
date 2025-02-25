@@ -1,9 +1,5 @@
 
 const checkbox = document.getElementById('checkbox');
-const messageSuccess = document.getElementById('message-success');
-const messageFail = document.getElementById('message-fail');
-const botCheck = document.getElementById('bot-check');
-
 let startTime = null;
 const minTime = 3000; 
 const maxTime = 15000;
@@ -102,12 +98,9 @@ document.addEventListener('touchmove', (event) => {
 
 checkbox.addEventListener('click', () => {
     if (checkTime()) {
-        messageFail.classList.add('hidden');
-        messageSuccess.classList.remove('hidden');
         checkbox.disabled = true; 
     } else {
         failCount++; 
-        messageFail.classList.remove('hidden');
 
         checkbox.style.transitionDuration = `${1 - failCount * 0.1}s`;
 
@@ -115,8 +108,4 @@ checkbox.addEventListener('click', () => {
             chaoticMovement();
         }
     }
-});
-
-botCheck.addEventListener('input', () => {
-    messageFail.classList.remove('hidden');
 });
