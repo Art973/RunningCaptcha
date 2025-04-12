@@ -1,3 +1,6 @@
+!\[VersionBadge\](https://badgen.net/badge/VERSION:/beta!/red?icon=github)
+
+
 Captcha: Escaping Checkbox
 Escaping Checkbox Demo
 An interactive captcha where users need to catch an escaping checkbox.
